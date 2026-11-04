@@ -46,10 +46,6 @@ Cada actividad está diseñada para aplicar las herramientas a un escenario fina
 - Descripción: El participante configura, en una capacidad disponible y habilitada, una tarea de seguimiento recurrente de un fondo ficticio y revisa tres indicadores simulados antes de utilizar el reporte.
 - ⏱️ Duración estimada: 22 min.
 
-## Preparación del entorno
-
-Consulta la [Setup Guide del curso](SETUP_GUIDE.md) para revisar los accesos, las herramientas y la preparación necesaria antes de comenzar.
-
 ---
 
 Duración total de las actividades: 120 minutos (2 horas), incluidos los 5 minutos de demostración del instructor.
