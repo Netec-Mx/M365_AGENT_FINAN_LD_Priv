@@ -6,49 +6,53 @@
 
 ## Plataforma de laboratorios
 
-Te damos la bienvenida a la plataforma de laboratorios del curso Microsoft 365 Copilot: agentes y aplicaciones para el sector financiero.
+Te damos la bienvenida a la plataforma de laboratorios del curso **Microsoft 365 Copilot: agentes y aplicaciones para el sector financiero**.
 
-Mediante actividades guiadas, explorarás cómo seleccionar mecanismos de asistencia, sintetizar información financiera, realizar conciliaciones con Finance Agent y configurar un agente personalizado. También revisarás el acceso a documentos de SharePoint y el seguimiento recurrente de indicadores, contrastando los resultados con sus fuentes.
+Mediante actividades guiadas, explorarás cuándo utilizar un prompt, un cuaderno o un agente; analizarás fuentes financieras simuladas, realizarás una conciliación con **Finance Agent en Excel** y construirás un agente con **Agent Builder de Microsoft 365 Copilot** para investigar una emisión ficticia de bonos. También incorporarás un **conector empresarial de conocimiento** con información financiera pública y configurarás un seguimiento recurrente de un fondo simulado, verificando siempre las fuentes y los resultados.
+
+**Preparación requerida:** Consultar la [SETUP GUIDE](SETUP_GUIDE.md) antes de comenzar. Las prácticas 3, 4 y 5 **no requieren desarrollar agentes en Copilot Studio**. La práctica 4 exige que un administrador haya preparado un conector **Enterprise Websites** que funcione desde Agent Builder; la práctica 5 requiere que **Prompts programados** esté habilitado. **Finance Agent** depende de condiciones propias de disponibilidad y licencia que deben verificarse por separado.
+
+**Escenarios:** TLN es una empresa ficticia que evalúa una **emisión propuesta, no aprobada**; Fondo Alfa Capital es un fondo ficticio distinto. La información externa del Banco Mundial, BID o Investopedia aporta contexto público y **no valida cifras de TLN**. Los archivos son material académico, no recomendaciones financieras.
 
 ## Lista de laboratorios
 
-Cada actividad está diseñada para aplicar las herramientas a un escenario financiero. Haz clic en los enlaces para consultar las instrucciones.
+Cada actividad está diseñada para aplicar las herramientas a un escenario financiero concreto. Haz clic en los enlaces para consultar instrucciones y descargar recursos.
 
 ### Capítulo 1
 
-#### [Práctica 1. Selección de asistencia y síntesis de un caso financiero](Capitulo01/README.md#3-práctica-1-selección-de-asistencia-y-síntesis-de-un-caso-financiero)
+#### [Práctica 1. Selección de asistencia y síntesis de un caso financiero](Capitulo01/README.md)
 
-- Descripción: El participante sintetiza información sectorial simulada y prepara la estructura de una presentación y una ficha para vinculación de un cliente ficticio, identificando tareas en las que la asistencia puede ahorrar tiempo.
-- ⏱️ Duración estimada: 22 min.
+- **Descripción:** Seleccionar un mecanismo de asistencia y sintetizar el perfil y una nota sectorial simulados de TLN. Preparar una ficha de vinculación y una estructura de presentación, separando hechos, escenarios y comprobaciones pendientes. Los dos documentos de referencia incluyen contexto empresarial, cifras y riesgos desarrollados.
+- **Duración estimada:** 22 minutos.
 
 ### Capítulo 2
 
-#### [Práctica 2. Conciliación de datos simulados con Finance Agent](Capitulo02/README.md#2-práctica-2-conciliación-de-datos-simulados-con-finance-agent)
+#### [Práctica 2. Conciliación de datos simulados con Finance Agent](Capitulo02/README.md)
 
-- Descripción: El participante concilia datos simulados con Finance Agent y utiliza los resultados para completar y analizar un modelo financiero sencillo en Excel.
-- ⏱️ Duración estimada: 36 min.
+- **Descripción:** Conciliar movimientos ficticios de mayor y banco mediante **Finance Agent en Excel**, contrastar discrepancias y completar un modelo financiero de caja. Comprobar las partidas pendientes antes de interpretar ajustes.
+- **Duración estimada:** 36 minutos.
 
 ### Capítulo 3
 
-#### [Práctica 3. Creación de un agente para investigación financiera con documentos de Microsoft 365](Capitulo03/README.md#3-práctica-3-creación-de-un-agente-para-investigación-financiera-con-documentos-de-microsoft-365)
+#### [Práctica 3. Creación de un agente para investigación financiera con documentos de Microsoft 365](Capitulo03/README.md#práctica-3-creación-de-un-agente-para-investigación-financiera-con-documentos-de-microsoft-365)
 
-- Descripción: El participante crea un agente para investigar una operación ficticia de mercado de capitales, define sus instrucciones, utiliza documentos simulados y verifica el análisis contra las fuentes. Compara el resultado con el que obtendría mediante un prompt.
-- ⏱️ Duración estimada: 35 min.
+- **Descripción:** Crear el agente `Asistente de Emision TLN` en **Agent Builder**, incorporar **tres documentos de SharePoint** (términos indicativos, nota crediticia y minuta de diligencia), comprobar cifras y límites, y comparar el agente con un prompt puntual. Se usan fuentes extensas y coherentes, con preguntas pendientes expresas.
+- **Duración estimada:** 35 minutos.
 
-#### [Práctica 4. Conector estándar de SharePoint en un agente](Capitulo03/README.md#4-práctica-4-conector-estándar-de-sharepoint-en-un-agente)
+#### [Práctica 4. Integración de un conector de sitio web empresarial para investigación financiera](Capitulo03/README.md#práctica-4-integración-de-un-conector-de-sitio-web-empresarial-para-investigación-financiera)
 
-- Descripción: Se muestra cómo un agente accede a documentos de SharePoint mediante un conector estándar, identificando permisos, autenticación y límites. No se realiza conexión a EMIS ni Capital IQ.
-- Modalidad: Demostración del instructor.
-- ⏱️ Duración estimada: 5 min.
+- **Descripción:** Demostrar cómo el mismo agente incorpora una conexión **Enterprise Websites / Sitio web empresarial** **realmente indexada** por el administrador para consultar información del **Banco Mundial, BID o Investopedia**. Diferenciar la fuente externa de los archivos TLN y verificar una cita. **Se utiliza un solo sitio validado antes del curso**, no los tres obligatoriamente.
+- **Modalidad:** Demostración del instructor.
+- **Duración estimada:** 5 minutos.
 
-#### [Práctica 5. Seguimiento financiero recurrente con revisión humana](Capitulo03/README.md#5-práctica-5-seguimiento-financiero-recurrente-con-revisión-humana)
+#### [Práctica 5. Seguimiento financiero recurrente con revisión humana](Capitulo03/README.md#práctica-5-seguimiento-financiero-recurrente-con-revisión-humana)
 
-- Descripción: El participante configura, en una capacidad disponible y habilitada, una tarea de seguimiento recurrente de un fondo ficticio y revisa tres indicadores simulados antes de utilizar el reporte.
-- ⏱️ Duración estimada: 22 min.
+- **Descripción:** Consultar un libro Excel y una ficha explicativa del **Fondo Alfa Capital**, preparar un reporte de patrimonio, rendimiento y liquidez, programar el prompt en Copilot Chat y verificar que una ejecución de prueba recupera las fuentes antes de considerar el seguimiento válido.
+- **Duración estimada:** 22 minutos.
 
 ---
 
-Duración total de las actividades: 120 minutos (2 horas), incluidos los 5 minutos de demostración del instructor.
+**Duración total de las actividades:** **120 minutos (2 horas)**, incluidos los 5 minutos de demostración del instructor. Duración total del curso: **2 horas y 30 minutos** (30 minutos de teoría y 120 minutos de práctica).
 
 ---
 
@@ -58,4 +62,4 @@ Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](
 
 ---
 
-¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
+¡Gracias por visitar nuestra plataforma! No olvides revisar los laboratorios y comenzar tu recorrido de aprendizaje.
